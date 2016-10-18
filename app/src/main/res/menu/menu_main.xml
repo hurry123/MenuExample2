@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.muriki.menuexample.MainActivity">
+
+    <group android:checkableBehavior="all" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"
+        android:icon="@drawable/sunrise"/>
+
+    <item
+        android:id="@+id/exit_the_app"
+        android:orderInCategory="101"
+        android:title="@string/exit_text"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/sunset"/>
+
+</menu>
